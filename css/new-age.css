@@ -195,7 +195,7 @@ header.masthead .device-container .screen img {
 
 section.download {
   position: relative;
-  padding: 150px 0;
+  padding: 70px 0;
 }
 
 section.download h2 {
@@ -371,7 +371,7 @@ footer {
   padding: 25px 0;
   text-align: center;
   color: rgba(255, 255, 255, 0.3);
-  background-color: #222222;
+  background-color: #3444A4;
 }
 
 footer p {
@@ -429,4 +429,60 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 .btn-xl {
   font-size: 11px;
   padding: 15px 45px;
+}
+.form1{
+    width:100%;
+    background-color:#EDEFFE;
+    border:none;
+    height:60px;
+    border-radius:15px;
+    padding-left:20px;
+    vertical-align:bottom;
+    font-size:20px;
+    -moz-backface-visibility:hidden;
+}
+.form2 {
+    width: 100%;
+    background-color: #EDEFFE;
+    border: none;
+    height: 60px;
+    border-radius: 15px;
+    padding-left: 20px;
+    resize:none;
+    font-size:20px;
+    color:black;
+    height:150px;
+}
+.submit1 {
+    width: 90%;
+    position: absolute;
+    transform:translateX(-50%);
+    height: 60px;
+    background-color: #4C65F5;
+    border:none;
+    border-radius:15px;
+    bottom:0px;
+    color:white;
+    font-size:20px;
+}
+.fli{
+    font-size:25px;
+    color:white;
+    margin-bottom:25px;
+}
+@media (min-width:1400px){
+    .container{
+        max-width:1300px;
+    }
+}
+@media (min-width:1560px) {
+    .container {
+        max-width: 1460px;
+    }
+}
+.fh{
+    font-size:30px;
+    color:#4C65F5;
+    font-weight:500;
+    margin-bottom:30px;
 }
